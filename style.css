@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #6D6060;
+}
+
+.navbar-nav {
+    border-bottom: 20px #fff;
+    border-bottom: 20rem #fff;
+}
+
+.navbar-nav li a {
+    color: #FBF2F2!important;
+    font-weight: 400;
+}
+
+#Home {
+    background-color: #6D6060;
+    padding-top: 5rem;
+}
+
+.col-md-6 img {
+    width: 20rem;
+}
+
+#Service {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#Service .col-12 h3 {
+    color: #6D6060;
+    padding-bottom: 50px;
+}
+
+.col-lg-3 img {
+    border-radius: 50%;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.bi {
+    padding-bottom: 20px;
+}
+
+#About {
+    padding: 5rem;
+    background-color: #6D6060;
+    text-align: center;
+    color: #FBF2F2;
+}
+
+#Product {
+    padding: 5rem;
+    text-align: center;
+}
+
+#Product h3 {
+    color: #6D6060;
+    padding-bottom: 2rem;
+}
+
+#footer {
+    background-color: #6D6060;
+    color: #fff;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+}
+
+.footer-box p i {
+    padding-right: 10px;
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: none;
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+.footer-box .btn {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    margin-top: 15px;
+    background-image: #6D6060;
+}
+
+.ignielToTop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: all 0.5s;
+    background: #6D6060 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+}
+
+.ignielToTop:hover {
+    background: #C4C4C4 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+}
