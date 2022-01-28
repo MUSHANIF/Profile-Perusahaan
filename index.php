@@ -212,7 +212,7 @@
                 <div class="col">
                     <div id="share-container">
                         <div id="share">
-                            <a class="facebook pt-2" href="https://www.facebook.com/angelpramadio" rel="nofollow noopener" target="_blank" title="Facebook">
+                            <a class="facebook pt-2 " href="https://www.facebook.com/angelpramadio" rel="nofollow noopener" target="_blank" title="Facebook">
                                 <img src="images/facebook.png" alt="">
                             </a>
 
@@ -234,8 +234,6 @@
         </div>
     </section>
     <!--End Contact-->
-
-
 
     <!-- Footer -->
     <section id="Footer">

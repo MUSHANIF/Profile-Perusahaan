@@ -6,7 +6,7 @@ global $username;
 
 if (isset($_POST['login'])) {
     $username = $_POST["username"];
-    $password = $_POST["Password"];
+    $password = $_POST["password"];
     $level = $_POST["level"];
 
     $result = mysqli_query($conn, "SELECT * FROM user WHERE  username = '$username'");
@@ -18,7 +18,7 @@ if (isset($_POST['login'])) {
 
         $row = mysqli_fetch_assoc($result);
 
-        if (password_verify($password, $row["Password"])) {
+        if (password_verify($password, $row["password"])) {
 
             // set   session
 
@@ -29,7 +29,7 @@ if (isset($_POST['login'])) {
                 $_SESSION['level'] = "admin";
                 $_SESSION['id'] = $row['id'];
                 // alihkan ke halaman dashboard admin
-                header("<location: /notif/index.php");
+                header("location: notif/index.php");
             } else if ($row['level'] == "user") {
                 // buat session login dan username
                 $_SESSION['username'] = $username;
@@ -39,7 +39,7 @@ if (isset($_POST['login'])) {
 
 
                 //header("location:/index.php?id=" . $row['id']);
-                header("location:/komentar/index.php");
+                header("location: komentar/index.php");
             } else {
 
                 // alihkan ke halaman login kembali
@@ -128,7 +128,7 @@ if (isset($_POST['login'])) {
                     </div>
                     <div class="row mb-3">
                         <p>Password</p>
-                        <input type="password" class="form-control" name="Password" placeholder="Buat Password" required>
+                        <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
                     </div>
                     <button type="submit" name="login" value="Login" class="btn btn-primary">Log In</button>
 
