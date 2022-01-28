@@ -11,6 +11,9 @@
     width: 100%;
 }*/
 
+
+/*Navbar*/
+
 .navbar {
     background-color: #452c7c;
 }
@@ -24,6 +27,23 @@
     color: #fbf2f2 !important;
     font-weight: 400;
 }
+
+.navbar-login {
+    background-color: white;
+}
+
+.navbar-login .navbar-nav {
+    border-bottom: 20px #fff;
+    border-bottom: 20rem #fff;
+}
+
+.navbar-login .navbar-nav li a {
+    color: #000000 !important;
+    font-weight: 400;
+}
+
+
+/*End Navbar*/
 
 #Home {
     background-image: linear-gradient(to bottom, #452c7c, #3c3375, #111322);
@@ -79,6 +99,10 @@
     color: #fbf2f2;
 }
 
+p .about-subtitle {
+    color: white;
+}
+
 #Product {
     padding: 5rem;
     text-align: center;
@@ -101,6 +125,10 @@
 #Product a:hover {
     color: #452c7c;
     text-decoration: none;
+}
+
+.detail-product .card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1) !important;
 }
 
 .card {
@@ -245,6 +273,51 @@
     border-top-width: 3px;
 }
 
+
+/*#form {
+    width: 80%;
+    height: 500px;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+}*/
+
+#form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#form .form-control {
+    border-radius: 20px;
+    background-color: #F0E2E2;
+    border-color: #F0E2E2;
+}
+
+#form .btn {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#form .btn:hover {
+    background-color: #452c7c;
+    border-color: #F0E2E2;
+}
+
+#form a,
+p {
+    color: #452c7c;
+    text-decoration: none;
+}
+
+
+/*Style Footer*/
+
 #Footer {
     background-image: linear-gradient(to bottom, #111322, #3c3375, #452c7c);
     color: #fbf2f2;
@@ -290,6 +363,9 @@
 .footer-box .icon-footer {
     width: 2rem;
 }
+
+
+/*End Footer*/
 
 .ignielToTop {
     width: 50px;
