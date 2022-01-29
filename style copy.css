@@ -382,6 +382,11 @@ p {
     text-decoration: none;
 }
 
+.footer-box .footer-contact {
+    color: #fbf2f2;
+    text-decoration: none;
+}
+
 .footer-box img {
     width: 120px;
 }

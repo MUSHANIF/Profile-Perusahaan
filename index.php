@@ -65,11 +65,13 @@
             </div>
         </div>
     </nav>
+
     <!--End Navbar-->
 
     <!-- Home Page -->
     <section id="Home">
         <div class="container">
+            <hr>
             <div class="row pt-5 pb-5">
                 <div class="col-md-6 p-5">
                     <h2>Tacpos</h2>
@@ -262,16 +264,13 @@
                 </div>
                 <div class="col-md-4 footer-box pl-4 ">
                     <h4 class="h4 mb-4 ">CONTACT US</h4>
-                    <p><img src="images/icon-footer1.png " class="icon-footer "> Jakarta, Indonesia</p>
-                    <p><img src="images/icon-footer2.png " class="icon-footer "></i> 0822 5888 1204</p>
-                    <p><img src="images/icon-footer3.png " class="icon-footer "></i> angel@pramadio.com</p>
+                    <p class="footer-contact"><img src="images/icon-footer1.png " class="icon-footer "> Jakarta, Indonesia</p>
+                    <p class="footer-contact"><img src="images/icon-footer2.png " class="icon-footer "></i> 0822 5888 1204</p>
+                    <p class="footer-contact"><img src="images/icon-footer3.png " class="icon-footer "></i> angel@pramadio.com</p>
                 </div>
                 <div class="col-md-4 footer-box ">
-                    <h5>COMPLAIN</h5>
-                    <input type="email " class="form-control " placeholder="Your Email " />
-                    <input type="number " class="form-control " placeholder="Your Number " />
-                    <input type="text " class="form-control " placeholder="Your Problem " />
-                    <button type="submit " class="btn btn-primary ">Send</button>
+                    <h4>COMPLAIN</h4>
+                    <button type="" class="btn btn-primary ">Send</button>
                 </div>
             </div>
         </div>
@@ -281,6 +280,7 @@
         </footer>
     </section>
     <!--End Footer-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
