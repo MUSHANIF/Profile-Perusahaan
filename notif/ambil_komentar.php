@@ -10,7 +10,7 @@ $query = "SELECT * FROM
 tbl_komentar 
 LEFT JOIN USER
 ON tbl_komentar.user_id = user.id
-WHERE parent_komentar_id = '0' AND CLOSE = '0'
+WHERE parent_komentar_id = '0' AND NOT user_id = 21
 GROUP BY USER_ID
 ";
 $dewan1 = $db1->prepare($query);
@@ -62,7 +62,7 @@ function ambil_reply($db1, $parent_id = 0, $marginleft = 0)
     while ($row = $res1->fetch_assoc()) {
       $output .= '
         <div class="media border p-3 mb-2" style="margin-left:' . $marginleft . 'px">
-          <img src="../komentar/images/avatar2.png" alt="foto-user" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+          <img src="images/avatar.png" alt="foto avatar" class="mr-3 mt-3 rounded-circle" style="width:60px;">
           <div class="media-body">
           <div class="row">
             <div class="col-sm-10">

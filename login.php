@@ -39,19 +39,17 @@ if (isset($_POST['login'])) {
 
 
                 //header("location:/index.php?id=" . $row['id']);
-                header("location: komentar/index.php");
+                header("location: notif/index.php");
             } else {
 
                 // alihkan ke halaman login kembali
-                header("location:index.php");
+                header("location:login.php");
             }
         } else {
-            header("location:index.php");
-
-            header("location: index.php");
-            exit;
+            header: ("location: login.php");
         }
         $_SESSION['login'] = true;
+        
     }
 
     $error = true;
@@ -84,7 +82,12 @@ if (isset($_POST['login'])) {
 </head>
 
 <body>
+<?php if (isset($error))
+        echo "<script>
+			alert('Maaf username atau password salah ,Silahkan coba lagi');
+		</script>";
 
+    ?>
     <!-- Navbar -->
     <nav class="navbar-login navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
@@ -105,12 +108,7 @@ if (isset($_POST['login'])) {
     </nav>
     <!--End Navbar-->
 
-    <?php if (isset($error))
-        echo "<script>
-			alert('Maaf username atau password salah ,Silahkan coba lagi');
-		</script>";
-
-    ?>
+    
 
     <div class="container">
         <div class="row mt-5 pt-5 pb-2">
