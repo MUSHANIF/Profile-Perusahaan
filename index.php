@@ -219,10 +219,16 @@
                 </div>
 
             </div>
+            <div class="row">
+            <div class="col-md-6 mb-3">            
+              <label for="exampleInputEmail1" class="form-label">nama </label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />            
+            </div>
             <div class="col-md-6 mb-3">            
               <label for="exampleInputEmail1" class="form-label">Email </label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />            
             </div>
+          </div>
           </div>
             <div class="col-md-12 mb-3">
               <label for="pesan" class="form-label">Pesan</label>

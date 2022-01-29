@@ -382,22 +382,23 @@ p .about-subtitle {
 }*/
 
 #form {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+  width: 100%;
+  padding-top: 10px;
 }
 
 #form .form-control {
   border-radius: 20px;
   background-color: #f0e2e2;
   border-color: #f0e2e2;
+  width: 100%;
 }
 
 #form .btn {
   color: white;
   background-color: black;
   border-radius: 20px;
-  width: 100%;
+  text-align: center;
+  width: 50%;
 }
 
 #form .btn:hover {
@@ -405,12 +406,17 @@ p .about-subtitle {
   border-color: #f0e2e2;
 }
 
-#form a,
-p {
+#form a {
   color: #452c7c;
   text-decoration: none;
+  font-weight: 40px;
 }
-
+#form a:hover {
+  color: blue;
+}
+#form .link:hover {
+  color: blue;
+}
 /*Style Footer*/
 
 #Footer {
