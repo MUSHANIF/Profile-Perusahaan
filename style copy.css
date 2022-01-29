@@ -238,7 +238,6 @@
 #Contact {
     padding-bottom: 3rem !important;
     background-image: linear-gradient(to bottom, #452c7c, #3c3375, #222646);
-    text-align: center;
     color: #fbf2f2;
 }
 
@@ -276,43 +275,47 @@
 }
 
 .facebook {
-    border-color: #3A95CA;
+    border-color: #3a95ca;
     border-top-style: solid;
     border-top-width: 3px;
 }
 
 .facebook:hover {
-    background: #3A95CA;
+    background: #3a95ca;
 }
 
 .instagram {
-    border-color: #CD3AA1;
+    border-color: #cd3aa1;
     border-top-style: solid;
     border-top-width: 3px;
 }
 
 .instagram:hover {
-    background: #CD3AA1;
+    background: #cd3aa1;
 }
 
 .whatsapp {
-    border-color: #64B161;
+    border-color: #64b161;
     border-top-style: solid;
     border-top-width: 3px;
 }
 
 .whatsapp:hover {
-    background: #64B161;
+    background: #64b161;
 }
 
 .gmail {
-    border-color: #DE5145;
+    border-color: #de5145;
     border-top-style: solid;
     border-top-width: 3px;
 }
 
 .gmail:hover {
-    background: #DE5145;
+    background: #de5145;
+}
+
+.btn-kirim {
+    width: 100%;
 }
 
 
@@ -333,33 +336,43 @@
 
 /*Login Style*/
 
-#form-login {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+#form {
+    width: 100%;
+    padding-top: 10px;
 }
 
-#form-login .form-control {
+#form .form-control {
     border-radius: 20px;
-    background-color: #F0E2E2;
-    border-color: #F0E2E2;
-}
-
-#form-login .btn {
-    color: white;
-    background-color: black;
-    border-radius: 20px;
+    background-color: #f0e2e2;
+    border-color: #f0e2e2;
     width: 100%;
 }
 
-#form-login .btn:hover {
-    background-color: #452c7c;
-    border-color: #F0E2E2;
+#form .btn {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
 }
 
-#form-login a,
-p {
+#form .btn:hover {
+    background-color: #452c7c;
+    border-color: #f0e2e2;
+}
+
+#form a {
     color: #452c7c;
+    text-decoration: none;
+    font-weight: 40px;
+}
+
+#form a:hover {
+    color: blue;
+}
+
+#form .link:hover {
+    color: blue;
 }
 
 
