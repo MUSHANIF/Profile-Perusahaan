@@ -18,7 +18,8 @@ function registrasi($data)
         echo "<script>  
 			alert ('username sudah terdaftarkan!')
 		</script>";
-
+         
+    
         return false;
     }
 
@@ -38,3 +39,4 @@ function registrasi($data)
     mysqli_query($conn, "INSERT INTO user VALUES('', '$username','$password','$level')");
     return mysqli_affected_rows($conn);
 }
+?>

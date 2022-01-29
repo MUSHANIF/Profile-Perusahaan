@@ -10,6 +10,7 @@ if (isset($_POST["register"])) {
 		</script>";
     } else {
         echo mysqli_error($conn);
+
     }
 }
 ?>
