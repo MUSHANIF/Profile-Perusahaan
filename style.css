@@ -27,6 +27,9 @@
     color: #fbf2f2 !important;
     font-weight: 400;
 }
+.navbar-nav li a:hover {
+    color: #b5adad !important;
+}
 
 .navbar-login {
     background-color: white;
@@ -208,7 +211,109 @@ p .about-subtitle {
     text-decoration: none;
 }
 
-#Contact {
+#contact {
+    padding-bottom: 5rem !important;
+  }
+  
+  .rute svg:hover {
+    stroke: #ccc;
+  }
+  
+  #share-container {
+    background: #2f3042;
+    width: 100%;
+    display: inline-block;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  #share {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #share a {
+    width: 25%;
+    height: 40px;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    transition: opacity 0.3s linear;
+    float: left;
+  }
+  
+  #share i {
+    top: 8px;
+    margin-left: 10px;
+    font-style: normal;
+    white-space: nowrap;
+  }
+  
+  #share svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: 1px;
+  }
+  
+  #share a:hover svg path {
+    fill: #fff;
+  }
+  
+  .blogger {
+    border-color: #ff5722;
+    border-top-style: solid;
+    border-top-width: 3px;
+  }
+  
+  .blogger:hover {
+    background: #ff5722;
+  }
+  
+  .facebook {
+    border-color: #3a579a;
+    border-top-style: solid;
+    border-top-width: 3px;
+  }
+  
+  .facebook:hover {
+    background: #3a579a;
+  }
+  
+  .instagram {
+    border-color: #8134af;
+    border-top-width: 3px;
+    border-top-style: solid;
+  }
+  
+  .instagram:hover {
+    background: #8134af;
+  }
+  
+  .whatsapp {
+    border-color: #25d366;
+    border-top-width: 3px;
+    border-top-style: solid;
+  }
+  
+  .whatsapp:hover {
+    background: #25d366;
+  }
+  
+  .youtube {
+    border-color: #cb2027;
+    border-top-width: 3px;
+    border-top-style: solid;
+  }
+  
+  .youtube:hover {
+    background: #cb2027;
+  }
+  .btn-kirim {
+    width: 100%;
+  }
+  
+
+/* #Contact {
     padding-bottom: 3rem !important;
     background-image: linear-gradient(to bottom, #452c7c, #3c3375, #222646);
     text-align: center;
@@ -271,7 +376,7 @@ p .about-subtitle {
     border-color: #DE5145;
     border-top-style: solid;
     border-top-width: 3px;
-}
+} */
 
 
 /*#form {
