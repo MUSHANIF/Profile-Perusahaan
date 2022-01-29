@@ -27,7 +27,7 @@ while ($row = $res1->fetch_assoc()) {
           <p>' . $row["komentar"] . '</p>
         </div>
         <div class="col-sm-2" align="right">
-          <a class="btn btn-primary"  id="' . $row["user_id"] . '" href="komentar/admin/index.php?kode=$row["user_id"]"  role="button">Link</a>
+          <a class="btn btn-primary"  id="' . $row["user_id"] . '" href="../komentar/admin/index.php"  role="button">Link</a>
           <button type="button" class="btn btn-primary reply" id="' . $row["user_id"] . '">Reply</button>
           </div>
       </div>

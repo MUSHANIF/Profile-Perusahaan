@@ -270,7 +270,8 @@
                 </div>
                 <div class="col-md-4 footer-box ">
                     <h4>COMPLAIN</h4>
-                    <button type="" class="btn btn-primary ">Send</button>
+                    <a type="button" class="btn btn-primary bg-dark" href="komentar/index.php">Complain</a>
+
                 </div>
             </div>
         </div>

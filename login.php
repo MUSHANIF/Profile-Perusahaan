@@ -118,7 +118,7 @@ if (isset($_POST['login'])) {
         </div>
     </div>
 
-    <section id="form" class="mt-2">
+    <section id="form-login" class="mt-2">
         <div class="container">
             <div class="row justify-content-center pt-2">
                 <form action="" method="POST">
@@ -134,7 +134,7 @@ if (isset($_POST['login'])) {
 
                     <div class="row"><a href="">Forgot password? </a></div>
                     <div class="row">
-                        <p><a href="registrasi.php">Sign Up</a></p>
+                        <p>Belum punya akun? <a href="registrasi.php">Sign Up</a></p>
                     </div>
 
                 </form>

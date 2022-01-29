@@ -330,35 +330,40 @@
     padding: 70px;
 }*/
 
-#form {
+
+/*Login Style*/
+
+#form-login {
     margin: auto;
     width: 50%;
     padding: 10px;
 }
 
-#form .form-control {
+#form-login .form-control {
     border-radius: 20px;
     background-color: #F0E2E2;
     border-color: #F0E2E2;
 }
 
-#form .btn {
+#form-login .btn {
     color: white;
     background-color: black;
     border-radius: 20px;
     width: 100%;
 }
 
-#form .btn:hover {
+#form-login .btn:hover {
     background-color: #452c7c;
     border-color: #F0E2E2;
 }
 
-#form a,
+#form-login a,
 p {
     color: #452c7c;
-    text-decoration: none;
 }
+
+
+/*End Login*/
 
 
 /*Style Footer*/
