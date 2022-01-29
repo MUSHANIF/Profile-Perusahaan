@@ -8,8 +8,8 @@ function registrasi($data)
 
 
     $username = strtolower(stripslashes($data['username']));
-    $password = mysqli_real_escape_string($conn, $data['Password']);
-    $password2 = mysqli_real_escape_string($conn, $data['Password2']);
+    $password = mysqli_real_escape_string($conn, $data['password']);
+    $password2 = mysqli_real_escape_string($conn, $data['password2']);
     $level = mysqli_real_escape_string($conn, $data['level']);
 
     //username sudah ada apa belum
@@ -18,7 +18,8 @@ function registrasi($data)
         echo "<script>  
 			alert ('username sudah terdaftarkan!')
 		</script>";
-
+         
+    
         return false;
     }
 
@@ -38,3 +39,4 @@ function registrasi($data)
     mysqli_query($conn, "INSERT INTO user VALUES('', '$username','$password','$level')");
     return mysqli_affected_rows($conn);
 }
+?>
