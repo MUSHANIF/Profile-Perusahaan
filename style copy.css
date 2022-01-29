@@ -121,18 +121,21 @@
 
 /*End About*/
 
+
+/*Product*/
+
 #Product {
     padding: 5rem;
     text-align: center;
 }
 
+#Product .img-product {
+    border-radius: 10px;
+}
+
 #Product h2 {
     color: #121943;
     padding-bottom: 2rem;
-}
-
-#Product .img-product {
-    border-radius: 10px;
 }
 
 #Product a {
@@ -226,6 +229,12 @@
     text-decoration: none;
 }
 
+
+/*End Product*/
+
+
+/*Contact*/
+
 #Contact {
     padding-bottom: 3rem !important;
     background-image: linear-gradient(to bottom, #452c7c, #3c3375, #222646);
@@ -244,7 +253,7 @@
 
 #share a {
     width: 25%;
-    height: 50px;
+    height: 70px;
     display: block;
     font-size: 24px;
     color: #fff;
@@ -256,7 +265,6 @@
     background: #263238;
     width: 100%;
     display: inline-block;
-    padding-bottom: 1rem;
     flex-wrap: nowrap;
     align-items: center;
 }
@@ -273,10 +281,18 @@
     border-top-width: 3px;
 }
 
+.facebook:hover {
+    background: #3A95CA;
+}
+
 .instagram {
     border-color: #CD3AA1;
     border-top-style: solid;
     border-top-width: 3px;
+}
+
+.instagram:hover {
+    background: #CD3AA1;
 }
 
 .whatsapp {
@@ -285,11 +301,22 @@
     border-top-width: 3px;
 }
 
+.whatsapp:hover {
+    background: #64B161;
+}
+
 .gmail {
     border-color: #DE5145;
     border-top-style: solid;
     border-top-width: 3px;
 }
+
+.gmail:hover {
+    background: #DE5145;
+}
+
+
+/*End Contact*/
 
 
 /*#form {

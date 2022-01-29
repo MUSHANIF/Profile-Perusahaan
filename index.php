@@ -195,9 +195,29 @@
         <div class="col-md-6">       
           <div name="Contact-Form">
             <div class="row">
-            <div class="col-md-6 mb-3">              
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" name="nama" required />      
+
+                <div class="col">
+                    <div id="share-container">
+                        <div id="share">
+                            <a class="facebook pt-2 " href="https://www.facebook.com/angelpramadio" rel="nofollow noopener" target="_blank" title="Facebook">
+                                <img src="images/facebook.png" alt="">
+                            </a>
+
+                            <a class="instagram pt-2" href="https://www.instagram.com/angelcalliista" rel="nofollow noopener" target="_blank" title="Instagram">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+
+                            <a class="whatsapp pt-2" href="https://api.whatsapp.com/send?phone=&amp;text=AdrianDroid%20%2D%20https://adrdroid.github.io/" rel="nofollow noopener" target="_blank" title="WhatsApp">
+                                <img src="images/whatsapp.png" alt="">
+                            </a>
+
+                            <a class="gmail pt-2" href="https://www.youtube.com/channel/UCq0kZt2RRXthaRcrrjg9xnQ" rel="nofollow noopener" target="_blank" title="YouTube">
+                                <img src="images/gmail.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-6 mb-3">            
               <label for="exampleInputEmail1" class="form-label">Email </label>
@@ -258,8 +278,6 @@
         
     </section>
     <!--End Contact-->
-
-
 
     <!-- Footer -->
     <section id="Footer">

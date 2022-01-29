@@ -79,11 +79,11 @@ if (isset($_POST["register"])) {
                     </div>
                     <div class="row mb-3">
                         <p>Password</p>
-                        <input type="password" class="form-control" name="Password" placeholder="Buat Password" required>
+                        <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
                     </div>
                     <div class="row mb-3">
                         <p>Konfirmasi Password</p>
-                        <input type="password" class="form-control" name="Password2" placeholder="Konfirmasi Password" required>
+                        <input type="password" class="form-control" name="password2" placeholder="Konfirmasi Password" required>
                     </div>
                     <div class="row mb-3">
                         <input type="hidden" class="form-control" id="radio" name="level" value="user" placeholder="" required>
