@@ -25,8 +25,8 @@ if (empty($_SESSION['csrf_token'])) {
 	<nav class="navbar navbar-dark bg-danger fixed-top">
 		<a class="navbar-brand" href="index.php" style="color: #fff;">
 			<?= "Selamat Datang " .  $_SESSION['id']  . " - " . $_SESSION['username'];
-			if (!isset($_SESSION['id'])) {
-				header("location:../registrasi/login.php");
+			if (!isset($_SESSION['login'])) {
+				header("location:/Profile-Perusahaan/login.php");
 				exit;
 			}
 

@@ -29,21 +29,18 @@ if (isset($_POST['login'])) {
                 $_SESSION['level'] = "admin";
                 $_SESSION['id'] = $row['id'];
                 // alihkan ke halaman dashboard admin
-                header("<location: /notif/index.php");
+                header("location:../Profile-Perusahaan/notif/index.php");
             } else if ($row['level'] == "user") {
                 // buat session login dan username
                 $_SESSION['username'] = $username;
                 $_SESSION['level'] = "user";
                 $_SESSION['id'] = $row['id'];
-
-
-
                 //header("location:/index.php?id=" . $row['id']);
-                header("location:/komentar/index.php");
+                header("location:../komentar/index.php");
             } else {
 
                 // alihkan ke halaman login kembali
-                header("location:index.php");
+                header("location:login.php");
             }
         } else {
             header("location:index.php");

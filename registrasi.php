@@ -9,7 +9,8 @@ if (isset($_POST["register"])) {
 			document.location.href = 'login.php';
 		</script>";
     } else {
-        echo "mysqli_error($conn)";
+        echo mysqli_error($conn);
+        
     }
 }
 ?>
