@@ -379,6 +379,18 @@
 /*End Login*/
 
 
+/*complain*/
+
+#Complain .box-complain {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1) !important;
+    border-radius: 10px;
+}
+
+#Complain .complain-title {
+    color: #adadad;
+}
+
+
 /*Style Footer*/
 
 #Footer {

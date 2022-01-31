@@ -73,13 +73,16 @@ if (empty($_SESSION['csrf_token'])) {
     <section id="Complain">
         <div class="container">
             <div class="row mt-5 mb-2 p-5">
-                <div class="col-12">
-                    <H1 class="complain-title">Complain</H1>
-                </div>
-                <div>
-                    <span id="message"></span>
+                <div class="box-complain">
+                    <div class="col-12">
+                        <H1 class="complain-title pt-3">Complain</H1>
+                    </div>
+                    <hr>
+                    <div>
+                        <span id="message"></span>
 
-                    <div id="display_comment"></div>
+                        <div id="display_comment"></div>
+                    </div>
                 </div>
             </div>
         </div>
