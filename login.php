@@ -103,7 +103,7 @@ if (isset($_POST['login'])) {
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 m-2">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home
-                        <i class="fad fa-sign-in"></i>
+                        <i class="fad fa-sign-out"></i>
                         </a>
                     </li>
                 </ul>
