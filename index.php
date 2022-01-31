@@ -25,21 +25,26 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <title>PERUSAHAAN</title>
+
+    
 
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand">
+                LOGO
+            </a>
+            <button class="navbar-toggler" typpe="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse text-white" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 m-2">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#Home">Home</a>
@@ -58,7 +63,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">Log in
-                            <img src="images/box-arrow-in-right.svg" alt="">
+                            <i class="fad fa-sign-in"></i>
                         </a>
                     </li>
                 </ul>
@@ -95,39 +100,32 @@
     <!-- Service Page -->
     <section id="Service">
         <div class="container">
-            <div class="row">
-                <div class="col-12  pt-5 m-5">
+            <div class="row mt-5 mb-5">
+                <div class="col-12  pt-5 mb-5">
                     <h2><b>WHAT ARE WE GOING TO DO?</b></h2>
                 </div>
                 <div class="col-lg-3 col-md-6  col-sm-6 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z" />
-                    </svg>
+                    <div class="icon"><i class="fas fa-file-code"></i></div>
                     <h5 class="service-title">Development</h5>
                     <p class="service-subtitle">Desktop and Mobile Application Development. Our Team will help you to create it</p>
                 </div>
                 <div class="col-lg-3 col-md-6  col-sm-6 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z" />
-                    </svg>
+                    <div class="icon"><i class="fas fa-edit"></i></div>
                     <h5 class="service-title">Web Design</h5>
                     <p class="service-subtitle">Our Team have many experience to Create and Design Web for Private Company and Organisation.</p>
                 </div>
                 <div class="col-lg-3 col-md-6  col-sm-6 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z" />
-                    </svg>
+                    <div class="icon"><i class="fas fa-wifi"></i></div>
                     <h5 class="service-title">IOT</h5>
                     <p class="service-subtitle"> Create Connection between your Home, Office or Others Location to your Mobile Device. or Computers.</p>
                 </div>
                 <div class=" col-lg-3 col-md-6 col-sm-6 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z" />
-                    </svg>
+                    <div class="icon"><i class="fas fa-tools"></i></div>
                     <h5 class="service-title">Maintenance</h5>
                     <p class="service-subtitle">Maintain Your Office Computers and Server to get the Best Perfomance</p>
                 </div>
             </div>
+        </div>
     </section>
     <!--End Service-->
 
@@ -135,7 +133,7 @@
     <section id="About">
         <div class="container">
             <div class="row">
-                <div class="col-12  pt-5">
+                <div class="col-12 pt-3">
                     <h2 class="about-title"><b>ABOUT US</b></h2>
                     <p class="about-subtitle">The Indonesian Application Team Builder.<br> Growing from the bad economic session of the Indonesian at 1997</p>
                 </div>
@@ -184,6 +182,20 @@
 
     <!-- Contact Page -->
     <section id="Contact">
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center mt-5">
+          <h1>Contact-Form<h1>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6 mb-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.271194710484!2d106.96072911431035!3d-6.227931762725831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c63d6198ac5%3A0x4813b5d3e70f4590!2sdr.Dwiana%20Dewi%20Heryati!5e0!3m2!1sid!2sid!4v1642895462901!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div> 
+        <div class="col-md-6">       
+          <div name="Contact-Form">
+        
         <div class="container">
             <div class="row pt-5 mt-5">
                 <div class="col text-center p-4">
@@ -219,7 +231,29 @@
                 </div>
             </div>
 
+
             <div class="row">
+            <div class="col-md-6 mb-3">            
+              <label for="exampleInputEmail1" class="form-label">Nama </label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />            
+            </div>
+            <div class="col-md-6 mb-3">            
+              <label for="exampleInputEmail1" class="form-label">Email </label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />            
+            </div>
+          </div>
+          </div>
+            <div class="col-md-12 mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
+            </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary btn-kirim">Submit</button>   
+          </div>    
+          </form>
+        </div> 
+      </div>
+      <div class="row">
 
                 <div class="col">
                     <div id="share-container">
@@ -243,6 +277,10 @@
                     </div>
                 </div>
 
+
+      </div> 
+    </div>    
+
             </div>
 
 
@@ -257,12 +295,12 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-4 footer-box ">
-                    <img src="images/logo.png " class="footer-img mb-4 " />
+                    <img src="images/logo 1.png" class="footer-img mb-4 " />
                     <p>
                         <a href="#Home ">Home</a>
                     </p>
                     <p>
-                        <a href="#Service ">Serivice</a>
+                        <a href="#Service ">Service</a>
                     </p>
                     <p>
                         <a href="#About ">About Us</a>
