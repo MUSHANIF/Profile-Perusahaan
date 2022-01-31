@@ -10,7 +10,6 @@ if (isset($_POST["register"])) {
 		</script>";
     } else {
         echo mysqli_error($conn);
-
     }
 }
 ?>
@@ -75,29 +74,29 @@ if (isset($_POST["register"])) {
                 <form action="" method="post">
                     <div class="row mb-3">
                         <div class="col">
-                        <p>Username</p>
-                        <input type="text" name="username" class="form-control" placeholder="Masukan Username" required>
-                    </div>
-                    </div>
-                    <div class="row mb-3">
-                    <div class="col">
-                        <p>Password</p>
-                        <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
-                    </div>
+                            <p>Username</p>
+                            <input type="text" name="username" class="form-control" placeholder="Masukan Username" required>
+                        </div>
                     </div>
                     <div class="row mb-3">
-                    <div class="col">
-                        <p>Konfirmasi Password</p>
-                        <input type="password" class="form-control" name="password2" placeholder="Konfirmasi Password" required>
+                        <div class="col">
+                            <p>Password</p>
+                            <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
+                        </div>
                     </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <p>Konfirmasi Password</p>
+                            <input type="password" class="form-control" name="password2" placeholder="Konfirmasi Password" required>
+                        </div>
                     </div>
                     <div class="row mb-3">
                         <input type="hidden" class="form-control" id="radio" name="level" value="user" placeholder="" required>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 mb-5 text-center">
-                        <button type="submit" name="register" value="Registrasi" class="btn btn-primary">Sign Up</button>
-                    </div>
+                            <button type="submit" name="register" value="Registrasi" class="btn btn-primary">Sign Up</button>
+                        </div>
                     </div>
                     <div class="row">
                         <p>Sudah punya akun? <a href="login.php" class="link text-danger">Log in</a> </p>
@@ -110,7 +109,7 @@ if (isset($_POST["register"])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
-    
+
 
 </body>
 

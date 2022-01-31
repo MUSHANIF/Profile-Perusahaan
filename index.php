@@ -182,6 +182,7 @@
 
     <!-- Contact Page -->
     <section id="Contact">
+
     <div class="container">
       <div class="row">
         <div class="col text-center mt-5">
@@ -194,7 +195,43 @@
         </div> 
         <div class="col-md-6">       
           <div name="Contact-Form">
-            
+        
+        <div class="container">
+            <div class="row pt-5 mt-5">
+                <div class="col text-center p-4">
+                    <h1>Contact-Form<h1>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-6 mb-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.271194710484!2d106.96072911431035!3d-6.227931762725831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c63d6198ac5%3A0x4813b5d3e70f4590!2sdr.Dwiana%20Dewi%20Heryati!5e0!3m2!1sid!2sid!4v1642895462901!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div name="Contact-Form">
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nama </label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email </label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3" name="pesan" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+
+
             <div class="row">
             <div class="col-md-6 mb-3">            
               <label for="exampleInputEmail1" class="form-label">Nama </label>
@@ -240,8 +277,13 @@
                     </div>
                 </div>
 
+
       </div> 
     </div>    
+
+            </div>
+
+
     </section>
     <!--End Contact-->
 
@@ -278,7 +320,8 @@
                 </div>
                 <div class="col-md-4 footer-box ">
                     <h4>COMPLAIN</h4>
-                    <button type="" class="btn btn-primary ">Send</button>
+                    <a type="button" class="btn btn-primary bg-dark" href="komentar/index.php">Complain</a>
+
                 </div>
             </div>
         </div>

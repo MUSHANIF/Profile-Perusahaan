@@ -31,7 +31,6 @@ if (isset($_POST['login'])) {
                 // alihkan ke halaman dashboard admin
 
                 header("location: notif/index.php");
-
             } else if ($row['level'] == "user") {
                 // buat session login dan username
                 $_SESSION['username'] = $username;
@@ -42,18 +41,16 @@ if (isset($_POST['login'])) {
 
 
                 header("location: komentar/index.php");
-
-
             } else {
 
                 // alihkan ke halaman login kembali
                 header("location:login.php");
             }
         } else {
-            header: ("location: login.php");
+            header:
+            ("location: login.php");
         }
         $_SESSION['login'] = true;
-        
     }
 
     $error = true;
@@ -86,7 +83,7 @@ if (isset($_POST['login'])) {
 </head>
 
 <body>
-<?php if (isset($error))
+    <?php if (isset($error))
         echo "<script>
 			alert('Maaf username atau password salah ,Silahkan coba lagi');
 		</script>";
@@ -112,7 +109,7 @@ if (isset($_POST['login'])) {
     </nav>
     <!--End Navbar-->
 
-    
+
 
     <div class="container">
         <div class="row mt-5 pt-5 pb-2">
@@ -126,21 +123,21 @@ if (isset($_POST['login'])) {
                 <form action="" method="POST">
                     <div class="row mb-3">
                         <div class="col">
-                        <p>Username</p>
-                        <input type="text" name="username" class="form-control" placeholder="Masukan Username" required>
+                            <p>Username</p>
+                            <input type="text" name="username" class="form-control" placeholder="Masukan Username" required>
+                        </div>
                     </div>
-                    </div>
-                    
+
                     <div class="row mb-3">
                         <div class="col">
-                        <p>Password</p>
-                        <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
-                    </div>
+                            <p>Password</p>
+                            <input type="password" class="form-control" name="password" placeholder="Buat Password" required>
+                        </div>
                     </div>
                     <div class="row ">
                         <div class="col-lg-12 mb-4 mt-4 text-center">
-                    <button type="submit" name="login" value="Login" class="btn btn-primary align-content-center center-block">Log In</button>
-                    </div>
+                            <button type="submit" name="login" value="Login" class="btn btn-primary align-content-center center-block">Log In</button>
+                        </div>
                     </div>
                     <div class="row"><a href="">Forgot password? </a></div>
                     <div class="row">
@@ -153,14 +150,14 @@ if (isset($_POST['login'])) {
     </section>
 
     <!--Footer -->
-    
+
 
     <!--End Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
-   
+
 
 </body>
 
