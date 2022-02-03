@@ -10,7 +10,7 @@ $query = "SELECT * FROM
 tbl_komentar 
 LEFT JOIN USER
 ON tbl_komentar.user_id = user.id
-WHERE parent_komentar_id = '0' AND NOT user_id = '$CobaID'
+WHERE parent_komentar_id = '0' AND NOT level ='admin'
 GROUP BY USER_ID
 ";
 $dewan1 = $db1->prepare($query);
